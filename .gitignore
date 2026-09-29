@@ -1,0 +1,13 @@
+# Local secrets / personal data - never commit real values
+.env
+data_folder/output/
+log/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
